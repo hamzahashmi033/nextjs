@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: slategray;
   text-decoration: none;
 }
 
@@ -40,8 +40,8 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
+  margin: 10px;
+  line-height: 2.15;
   font-size: 4rem;
 }
 
@@ -75,6 +75,7 @@
 
 .card {
   margin: 1rem;
+  cursor: pointer;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -113,4 +114,27 @@
     width: 100%;
     flex-direction: column;
   }
+  }
+  
+.navbar ul {
+  margin: 0 -30px;
+  position: fixed;
+  width: 100%;
+  background-color: slategray;
+  padding: 15px 15px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.navbar ul li{
+  color: white;
+  font-size: 20px;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.navbar ul li:hover{
+  color: black;
+  
 }
